@@ -9,4 +9,7 @@ body {
 
 h1 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    font-size: 48px;
 }
