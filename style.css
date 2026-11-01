@@ -4,6 +4,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #e3f2fd;
+        animation: fadeIn 2s ease-in;
+    }
+    h1 {
+        text-align: center;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
     height: 100vh;
 }
 
